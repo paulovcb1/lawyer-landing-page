@@ -178,7 +178,7 @@
         </div>
 
         <div class="credit">
-            <p>Desenvolvido por <span>Paulo Barbosa ®</span> || Soluções inteligentes</p>
+            <p>Desenvolvido por <span>Paulo Barbosa ®</span> || Soluções inteligentes </p>
         </div>
     </section>
 
