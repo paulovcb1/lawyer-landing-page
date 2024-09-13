@@ -3,20 +3,21 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
     <title>Advocacia</title>
     <link rel="stylesheet" href="style.css">
-
+    <link rel="shortcut icon" href="img\logo_cabecao-removebg-preview.png">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
 </head>
 
 <body>
     <!-- header section -->
-    <header class="header">
+    <header class="header" id="navbar">
         <a href="#" class="logo">
             <img src="img/logo_cabecao-removebg-preview.png" alt="logo">
         </a>
@@ -42,7 +43,7 @@
         <div class="content">
             <h3>garanta a sua aposentadoria de graça</h3>
             <p>Garanta sua aposentadoria de graça aproveitando programas públicos como o INSS, que oferece cobertura previdenciária baseada em contribuições. Investigue previdência complementar com contrapartidas de empresas. Só cobramos se o processo for bem-sucedido. Economize e busque orientação financeira para um futuro seguro.</p>
-            <a href="https://api.whatsapp.com/send?phone=number" class="btn">Entre em contato agora</a>
+            <a href="https://api.whatsapp.com/send?phone=38998230477" class="btn">Entre em contato agora</a>
         </div>
     </section>
 
@@ -53,9 +54,9 @@
                 <img src="img/advogado.jpg" alt="foto">
             </div>
             <div class="content">
-                <h3>O que Faz de Nós Especiais?</h3>
+                <h3>O que faz de nós especiais?</h3>
                 <p>Somos únicos pela nossa combinação de experiência, expertise e compromisso com a excelência. Nossa equipe é formada por profissionais altamente qualificados, dedicados a oferecer soluções personalizadas que atendem às suas necessidades específicas. Priorizamos um atendimento transparente e personalizado, garantindo que cada cliente receba a atenção e suporte necessários. A nossa abordagem detalhada e focada em resultados faz a diferença, proporcionando uma experiência excepcional e eficaz. Escolha-nos para serviços diferenciados e resultados superiores.</p>
-                <a href="#" class="btn">Saiba Mais</a>
+                <a href="https://api.whatsapp.com/send?phone=38998230477" class="btn">Saiba Mais</a>
             </div>
         </div>
     </section>
@@ -121,9 +122,9 @@
 
             <div class="box">
                 <img src="img/aspas.png" alt="QUOTES" class="quotes">
-                <p>LExcelente atendimento e soluções personalizadas. A empresa superou minhas expectativas e o processo foi transparente e eficiente. Muito satisfeito com o resultado!</p>
+                <p>Excelente atendimento e soluções personalizadas. A empresa superou minhas expectativas e o processo foi transparente e eficiente. Muito satisfeito com o resultado!</p>
                 <img src="img/images.jpeg" alt="user" class="user">
-                <h3>Maria D'Lurdes</h3>
+                <h3>Rogerio Almeida</h3>
                 <div class="stars">
                     <i class="fa-regular fa-star"></i>
                     <i class="fa-regular fa-star"></i>
@@ -155,7 +156,7 @@
                     <span class="fas fa-phone"></span>
                     <input type="text" placeholder="Telefone" id="telefone" name="telefone" required>
                 </div>
-                <input type="submit" value="Contact Now" class="btn">
+                <input type="submit" value="Enviar" class="btn">
                 <div id="mensagem" style="font-size:12px; display:none; color:green; margin-top:10px;"></div>
             </form>            
         </div>
@@ -163,10 +164,7 @@
 
     <section class="footer">
         <div class="shar">
-            <a href="#" class="fab fa-facebook"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-whatsapp"></a>
+            <a href="https://api.whatsapp.com/send?phone=38998230477" class="fab fa-whatsapp"></a>
         </div>
 
         <div class="links">

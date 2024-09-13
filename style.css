@@ -71,6 +71,14 @@ html::-webkit-scrollbar-thumb{
     height: 6rem;
  }
 
+ #navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: top 0.3s ease-in-out;
+    z-index: 1000;
+ }
+
  .header .navbar a{
     margin: 0 1rem;
     font-size: 1.6rem;
@@ -136,11 +144,12 @@ html::-webkit-scrollbar-thumb{
     color: var(--main-color)
 }
 
+
 .home{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(img/martelo.png) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/martelo.png) no-repeat center center;
     background-size: cover;
     background-position: center;
     padding: 40px;
@@ -164,6 +173,7 @@ html::-webkit-scrollbar-thumb{
     padding: 1rem 0;
     color: #eee;
 }
+
 
 .heading{
     text-align: center;
@@ -362,75 +372,220 @@ html::-webkit-scrollbar-thumb{
 .footer .credit span{
     color: var(--main-color);
 }
+/* CSS para a seção de Benefícios Previdenciários */
+.benefits {
+    padding: 50px 20px;
+    background-color:var(--black);
+    text-align: center;
+}
+
+.benefits .heading {
+    font-size: 4em;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.benefits .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.benefits .box {
+    background-color: var(--bg);
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.benefits .box:hover {
+    transform: translateY(-10px);
+}
+
+.benefits .box i {
+    font-size: 6em;
+    color: var(--main-color);
+    margin-bottom: 10px;
+}
+
+.benefits .box h3 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.benefits .box p {
+    font-size: 1.5rem;
+    color: #fff;
+}
 
 
 
 
 
 
-@media (max-width:991px){
-    html{
+@media (max-width: 991px) {
+    html {
         font-size: 55%;
     }
 
-    .header{
+    .header {
         padding: 1.5rem 2rem;
     }
-    .section{
-        padding: 2rem ;
-     }
-}
-@media (max-width:768px) {
 
-    #menu-btn{
+    .section {
+        padding: 2rem;
+    }
+
+    .home .content h3 {
+        font-size: 5rem;
+    }
+
+    .home .content p {
+        font-size: 1.8rem;
+    }
+
+    .about .row {
+        flex-direction: column;
+    }
+
+    .about .row .image,
+    .about .row .content {
+        flex: 1 1 100%;
+    }
+
+    .benefits .box {
+        width: 100%;
+    }
+    .benefits .heading{
+        font-size: 4em;
+    }
+
+}
+
+@media (max-width: 768px) {
+    #menu-btn {
         display: inline-block;
     }
 
-    .header .navbar{
+    .header .navbar {
         position: absolute;
-        top: 100%; right: -100%;
+        top: 100%;
+        right: -100%;
         background: #fff;
-        width:30rem ;
+        width: 30rem;
         height: calc(100vh - 9.5rem);
-
+        transition: right 0.3s ease;
     }
 
-    .header .navbar.active{
+    .header .navbar.active {
         right: 0;
     }
 
-    .header .navbar a{
+    .header .navbar a {
         color: var(--black);
         display: block;
         margin: 1.5rem;
         padding: .5rem;
         font-size: 2rem;
     }
-    .header .search-form{
+
+    .header .search-form {
         width: 90%;
         right: 2rem;
     }
 
-    .home{
+    .home {
         background-position: left;
         justify-content: center;
         text-align: center;
     }
 
-    .home .content h3{
+    .home .content h3 {
         font-size: 4.5rem;
     }
-    .home .content p{
-        font-size: 1.5rem;
+
+    .home .content p {
+        font-size: 2.0rem;
     }
+
+    .about .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about .row .image,
+    .about .row .content {
+        width: 100%;
+    }
+
+    .contact .row {
+        flex-direction: column;
+    }
+
+    .contact .row form,
+    .contact .row .map {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+
+    .footer .links a {
+        padding: 1rem 2rem;
+        font-size: 1.6rem;
+    }
+
+    .home .content p{
+        font-weight: bold;
+
+    }
+
+    .home {
+        background-position: center;
+    }
+
     
 }
 
-@media (max-width:441px){
-    html{
+@media (max-width: 431px) {
+    html {
         font-size: 50%;
     }
 
+    .home .content h3 {
+        font-size: 4rem;
+    }
+
+    .home .content p {
+        font-size: 2.0rem;
+    }
+
+    .header .navbar a {
+        font-size: 1.8rem;
+    }
+
+    .about .row .content h3 {
+        font-size: 2.5rem;
+    }
+
+    .about .row .content p {
+        font-size: 2.0rem;
+    }
+
+    .contact .row form h3 {
+        font-size: 3rem;
+    }
+
+    .footer .credit {
+        font-size: 1.6rem;
+    }
+
+    .benefits .heading h3{
+        font-size: 4em;
+    }
 }
 
 @keyframes slide-in {
@@ -481,52 +636,3 @@ body {
 
 
 
-/* CSS para a seção de Benefícios Previdenciários */
-.benefits {
-    padding: 50px 20px;
-    background-color:var(--black);
-    text-align: center;
-}
-
-.benefits .heading {
-    font-size: 6em;
-    margin-bottom: 20px;
-    color: #fff;
-}
-
-.benefits .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.benefits .box {
-    background-color: var(--bg);
-    border-radius: 10px;
-    padding: 20px;
-    width: 400px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.benefits .box:hover {
-    transform: translateY(-10px);
-}
-
-.benefits .box i {
-    font-size: 6em;
-    color: var(--main-color);
-    margin-bottom: 10px;
-}
-
-.benefits .box h3 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-    color: #fff;
-}
-
-.benefits .box p {
-    font-size: 1.5rem;
-    color: #fff;
-}

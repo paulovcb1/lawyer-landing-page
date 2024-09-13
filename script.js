@@ -8,10 +8,22 @@ document.querySelector('#menu-btn').onclick = () =>{
 
 
 
-window.onscroll = () =>{
-    navbar.classList.remove('active');
-    searchform.classList.remove('active');
-}
+let lastScrollTop = 0;
+const navbar2 = document.getElementById('navbar');
+
+window.addEventListener('scroll', function() {
+  let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (scrollTop > lastScrollTop) {
+    // Rolar para baixo, esconde a navbar
+    navbar2.style.top = '-100px';
+  } else {
+    // Rolar para cima, mostra a navbar
+    navbar2.style.top = '0';
+  }
+
+  lastScrollTop = scrollTop;
+});
 
 $(document).ready(function(){
     // Aplicar a máscara de telefone
@@ -54,15 +66,15 @@ $(document).ready(function(){
     });
 });
 
-const geolocation = navigator.geolocation
+// const geolocation = navigator.geolocation
 
-geolocation.getCurrentPosition((position) => {
+// geolocation.getCurrentPosition((position) => {
 
-    let lat = position.coords.latitude;
-    let long = position.coords.longitude;
+//     let lat = position.coords.latitude;
+//     let long = position.coords.longitude;
 
-    console.log(lat, long)
-});
+//     console.log(lat, long)
+// });
 
 
 
