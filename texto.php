@@ -1,7 +1,7 @@
 <?php
 $url = "http://api.wordmensagens.com.br/send-text";
 
-$data = array('instance' => "RZT070824071358OWN802",
+$data = array('instance' => "BUM170924095634OWN802",
               'to' => $telefone_envio,
               'token' => '0U18P-Z2N-0493S',
               'message' => $mensagem);
@@ -22,7 +22,7 @@ $erro = $res123->erro;
 if ($erro == true) {
   $status_envio = 'Dados de acesso enviados com Sucesso';
 } else {
-  $status_envio = 'Falha ao enviar a mensagem para o funcionario';
+  $status_envio = 'Falha ao enviar a mensagem';
 }
 // Fim da Verificação de Envio
 

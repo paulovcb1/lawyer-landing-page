@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        
+
 </head>
 
 <body>
@@ -43,7 +43,7 @@
         <div class="content">
             <h3>garanta a sua aposentadoria de graça</h3>
             <p>Garanta sua aposentadoria de graça aproveitando programas públicos como o INSS, que oferece cobertura previdenciária baseada em contribuições. Investigue previdência complementar com contrapartidas de empresas. Só cobramos se o processo for bem-sucedido. Economize e busque orientação financeira para um futuro seguro.</p>
-            <a href="https://api.whatsapp.com/send?phone=38998230477" class="btn">Entre em contato agora</a>
+            <a href="https://api.whatsapp.com/send?phone=+5511999999999&text=Olá!%20Gostaria%20de%20mais%20informações" class="btn">Entre em contato agora</a>
         </div>
     </section>
 
@@ -56,7 +56,7 @@
             <div class="content">
                 <h3>O que faz de nós especiais?</h3>
                 <p>Somos únicos pela nossa combinação de experiência, expertise e compromisso com a excelência. Nossa equipe é formada por profissionais altamente qualificados, dedicados a oferecer soluções personalizadas que atendem às suas necessidades específicas. Priorizamos um atendimento transparente e personalizado, garantindo que cada cliente receba a atenção e suporte necessários. A nossa abordagem detalhada e focada em resultados faz a diferença, proporcionando uma experiência excepcional e eficaz. Escolha-nos para serviços diferenciados e resultados superiores.</p>
-                <a href="https://api.whatsapp.com/send?phone=38998230477" class="btn">Saiba Mais</a>
+                <a href="https://api.whatsapp.com/send?phone=+5511999999999&text=Olá!%20Gostaria%20de%20mais%20informações" class="btn">Saiba Mais</a>
             </div>
         </div>
     </section>
@@ -102,6 +102,13 @@
             </div>
         </div>
     </section>
+
+    <div class="whatsapp-button">
+        <a href="https://api.whatsapp.com/send?phone=+5511999999999&text=Olá!%20Gostaria%20de%20mais%20informações."
+            target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
 
     <section class="review" id="review">
         <h1 class="heading"><span>Avaliações</span> dos clientes</h1>
@@ -158,13 +165,13 @@
                 </div>
                 <input type="submit" value="Enviar" class="btn">
                 <div id="mensagem" style="font-size:12px; display:none; color:green; margin-top:10px;"></div>
-            </form>            
+            </form>
         </div>
     </section>
 
     <section class="footer">
         <div class="shar">
-            <a href="https://api.whatsapp.com/send?phone=38998230477" class="fab fa-whatsapp"></a>
+            <a href="https://api.whatsapp.com/send?phone=+5511999999999&text=Olá!%20Gostaria%20de%20mais%20informações" class="fab fa-whatsapp"></a>
         </div>
 
         <div class="links">
@@ -184,4 +191,3 @@
 </body>
 
 </html>
-

@@ -586,6 +586,8 @@ html::-webkit-scrollbar-thumb{
     .benefits .heading h3{
         font-size: 4em;
     }
+
+    
 }
 
 @keyframes slide-in {
@@ -634,5 +636,44 @@ body {
     animation: fade-in 1s ease-in-out;
 }
 
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366; /* Cor de fundo do WhatsApp */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Sombra para destaque */
+    z-index: 100;
+    transition: transform 0.3s ease;
+    animation: bounce 2s infinite;
+}
+
+.whatsapp-button i {
+    color: white; /* Cor do ícone */
+    font-size: 30px; /* Tamanho do ícone */
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1); /* Aumenta o botão ao passar o mouse */
+}
+
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0); /* Posição inicial */
+    }
+    40% {
+        transform: translateY(-15px); /* Pulo */
+    }
+    60% {
+        transform: translateY(-10px); /* Pulo menor */
+    }
+}
 
 
