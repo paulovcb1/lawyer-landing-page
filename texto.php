@@ -1,7 +1,7 @@
 <?php
 $url = "http://api.wordmensagens.com.br/send-text";
 
-$data = array('instance' => "BUM170924095634OWN802",
+$data = array('instance' => "1L9240924051415OWN802",
               'to' => $telefone_envio,
               'token' => '0U18P-Z2N-0493S',
               'message' => $mensagem);

@@ -118,13 +118,6 @@
                 <p>Contratei os serviços e fiquei impressionado com a atenção e resultados rápidos. A equipe é excepcional e entregou tudo conforme prometido. Recomendo!</p>
                 <img src="img/1000_F_398361028_UJHoY7Dnvgu5A273sR4GtVYSlg7HhA22.jpg" alt="user" class="user">
                 <h3>Maria D'Lurdes</h3>
-                <div class="stars">
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
             </div>
 
             <div class="box">
@@ -183,7 +176,7 @@
         </div>
 
         <div class="credit">
-            <p>Desenvolvido por <span>Paulo Barbosa ®</span> || Soluções inteligentes </p>
+            <p>Desenvolvido por Paulo Barbosa ® || Soluções inteligentes </p>
         </div>
     </section>
 
